@@ -6,7 +6,7 @@ build:
 	mkdir -p build
 
 %.md: build
-	pandoc -o build/$(basename $@).pdf $@
+	pandoc -V geometry:margin=1cm -o build/$(basename $@).pdf $@
 
 clean:
 	$(RM) -rf build
