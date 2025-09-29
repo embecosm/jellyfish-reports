@@ -7,9 +7,10 @@ ${NEXT_REPORT_DATE}
 - Item 1
 - Item 2
 
-## Activity details
+## Review of the past week
 
 - Item 1
+  - *IN PROGRESS*
 - Item 2
 
 ## Plan for the next week
@@ -18,12 +19,15 @@ ${NEXT_REPORT_DATE}
 
 ## Work package progress
 
-- [ ] *WP1* - Extend the tool chain drivers
-- [ ] *WP2* - Add assembler/disassembler support for the ISA extension
-- [ ] *WP3* - Test the assembler and disassembler
-- [ ] *WP4* - Add builtin function support for the ISA extension
+- [${WP1_COMPLETION}] *WP1* - Extend the tool chain drivers
+- [${WP2_COMPLETION}] *WP2* - Add assembler/disassembler support for the ISA extension
+- [${WP3_COMPLETION}] *WP3* - Test the assembler and disassembler
+- [${WP4_COMPLETION}] *WP4* - Add builtin function support for the ISA extension
 
-Builtins completed: X/70
+- Instructions added to binutils: ${BINUTILS_INSTRUCTION_COUNT}/70
+- Binutils instructions tested: ${BINUTILS_INSTRUCTION_TEST_COUNT}/70
+- Builtins completed: ${BUILTINS_COMPLETED_COUNT}/70
+- Builtins tested: ${BUILTINS_TESTED_COUNT}/70
 
 ## Milestones
 
