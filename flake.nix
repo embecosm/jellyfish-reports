@@ -36,7 +36,7 @@
             inherit (pkgs)
               gnumake
               pandoc
-              texliveSmall
+              texliveMedium
               ;
           };
 
