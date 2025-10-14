@@ -40,6 +40,7 @@ ${NEXT_REPORT_DATE}
 ## Risk table
 
 There are no updates to the risk table.
+Risk register available at the following [link](https://docs.google.com/spreadsheets/d/1CJ0aZVB_PavCR35Cum80Vebcd8fscyv6x8qoU1es-iE)
 
 ## Planned absences
 
